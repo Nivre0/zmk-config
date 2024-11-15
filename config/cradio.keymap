@@ -77,7 +77,7 @@
             &trans     &trans      &trans     &trans     &trans        &kp PG_UP  &kp HOME    &kp RPAR   &kp END   &kp BSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   ` ~    │   ALT    │   CTRL   │  SHIFT   │          │   │   pgdn   │   LEFT   │   DOWN   │  RIGHT   │   ; :    │
-            &GRAVE     &kp LALT   &kp LCTRL  &kp LSHFT  &trans         &kp PG_DN  &kp MINUS  &kp EQUAL   &kp BSLH   &kp SEMI
+           &kp GRAVE  &kp LALT   &kp LCTRL  &kp LSHFT  &trans         &kp PG_DN  &kp MINUS  &kp EQUAL   &kp BSLH   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &trans     &trans     &trans     &trans     &trans         &trans      &trans     &trans     &trans     &trans
