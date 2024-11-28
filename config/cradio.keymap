@@ -80,8 +80,8 @@
         //│   ` ~    │   ALT    │   CTRL   │  SHIFT   │          │   │   pgdn   │   LEFT   │   DOWN   │  RIGHT   │   ; :    │
            HRML(GRAVE,   LALT,     LCTRL,    LSHIFT)     &trans       &kp PG_DN  &kp LEFT  &kp DOWN     &kp RIGHT   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &trans     &trans     &trans     &trans         &trans      &trans     &trans     &trans     &trans
+        //│          │          │          │          │          │   │          │          │          │          │   - _    │
+            &trans     &trans     &trans     &trans     &trans         &trans      &trans     &trans     &trans    &kp MINUS
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans      &trans        &kp ESC    &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
