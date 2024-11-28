@@ -78,7 +78,7 @@
             &trans     &trans      &trans     &trans     &trans        &kp PG_UP  &kp HOME    &kp UP    &kp END   &kp BSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   ` ~    │   ALT    │   CTRL   │  SHIFT   │          │   │   pgdn   │   LEFT   │   DOWN   │  RIGHT   │   ; :    │
-           HRML(GRAVE,   trans,     trans,    trans)     &trans       &kp PG_DN  &kp LEFT  &kp DOWN     &kp RIGHT   &kp SEMI
+           HRML(GRAVE,   LALT,     LCTRL,    LSHIFT)     &trans       &kp PG_DN  &kp LEFT  &kp DOWN     &kp RIGHT   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &trans     &trans     &trans     &trans     &trans         &trans      &trans     &trans     &trans     &trans
