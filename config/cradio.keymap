@@ -12,7 +12,7 @@
 #define DEFAULT 0
 #define ARROWS 2
 #define NUMBERS 1
-#define 
+#define BLUET 3
 
 / {
     behaviors {
@@ -88,7 +88,7 @@
             >;
         };
 
-        configure_layer {
+        configure_layer { // layer 3
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
