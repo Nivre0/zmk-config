@@ -10,8 +10,9 @@
 #define HRMR(k1,k2,k3,k4) &ht RSHFT k1  &ht RCTRL k2  &ht RALT k3  &ht RWIN k4
 
 #define DEFAULT 0
-#define ARROWS 1
-#define NUMBERS 2
+#define ARROWS 2
+#define NUMBERS 1
+#define 
 
 / {
     behaviors {
@@ -65,7 +66,7 @@
         //│          │          │          │          │          │   │          │          │          │    [     │     ]    │
             &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &kp LBKT   &kp RBKT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp TAB        &kp ESC     &trans
+                                             &trans     &kp TAB        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -77,12 +78,29 @@
             &trans     &trans      &trans     &trans     &trans        &kp PG_UP  &kp HOME    &kp UP    &kp END   &kp BSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   ` ~    │   ALT    │   CTRL   │  SHIFT   │          │   │   pgdn   │   LEFT   │   DOWN   │  RIGHT   │   ; :    │
-           &kp GRAVE  &kp LALT   &kp LCTRL  &kp LSHFT  &trans         &kp PG_DN  &kp LEFT  &kp DOWN     &kp RIGHT   &kp SEMI
+           HRML(GRAVE,   trans,     trans,    trans)     &trans       &kp PG_DN  &kp LEFT  &kp DOWN     &kp RIGHT   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &trans     &trans     &trans     &trans     &trans         &trans      &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &trans     &trans
+                                             &trans      &trans        &kp ESC    &trans
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+            >;
+        };
+
+        configure_layer {
+            bindings = <
+        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│          │          │          │          │          │   │          │          │          │          │          │
+            &trans     &trans      &trans     &trans     &trans        &trans      &trans     &trans     &trans     &trans
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│   BT0    │   BT1    │   BT2    │   BT3    │   BT4    │   │          │          │          │          │          │
+             &blue_0    &blue_1    &blue_2    &blue_0    &blue_0         &trans     &trans     &trans     &trans     &trans
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │          │          │          │          │   │          │          │          │          │          │
+            &trans     &trans     &trans     &trans     &trans         &trans      &trans     &trans     &trans     &trans
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                             &trans      &trans        &trans      &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
