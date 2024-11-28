@@ -95,7 +95,7 @@
             &trans     &trans      &trans     &trans     &trans        &trans      &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   BT0    │   BT1    │   BT2    │   BT3    │   BT4    │   │          │          │          │          │          │
-             &blue_0    &blue_1    &blue_2    &blue_0    &blue_0         &trans     &trans     &trans     &trans     &trans
+             &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &trans     &trans     &trans     &trans     &trans         &trans      &trans     &trans     &trans     &trans
