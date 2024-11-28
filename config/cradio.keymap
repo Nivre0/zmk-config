@@ -49,7 +49,7 @@
         //│  Y       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Y      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &kp BSPC &lt NUMBERS SPACE &lt ARROWS ENTER  &kp DEL
+                                           &kp BSPC &lt ARROWS SPACE &lt NUMBERS ENTER  &kp DEL
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
